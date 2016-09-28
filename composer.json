@@ -13,7 +13,7 @@
         "Nathanmac/Parser": "3.*",
         "roumen/sitemap": "2.6.*",
         "laravelcollective/html": "5.3.*",
-        "vinkla/instagram": "^4.2"
+        "cosenary/instagram": "^2.3"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

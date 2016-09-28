@@ -167,7 +167,6 @@ return [
         Spatie\Newsletter\NewsletterServiceProvider::class,
         Nathanmac\Utilities\Parser\ParserServiceProvider::class,
         Roumen\Sitemap\SitemapServiceProvider::class,
-        Vinkla\Instagram\InstagramServiceProvider::class,
 
         /*
          * Package Service Providers...
@@ -236,7 +235,6 @@ return [
         'HTML'      => Collective\Html\HtmlFacade::class,
         'Newsletter'=> Spatie\Newsletter\NewsletterFacade::class,
         'Parser'    => Nathanmac\Utilities\Parser\Facades\Parser::class,
-        'Instagram' => Vinkla\Instagram\Facades\Instagram::class,
 
     ],
 
