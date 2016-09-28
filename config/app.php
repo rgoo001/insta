@@ -162,6 +162,12 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        Kamaln7\Toastr\ToastrServiceProvider::class,
+        Collective\Html\HtmlServiceProvider::class,
+        Spatie\Newsletter\NewsletterServiceProvider::class,
+        Nathanmac\Utilities\Parser\ParserServiceProvider::class,
+        Roumen\Sitemap\SitemapServiceProvider::class,
+        Vinkla\Instagram\InstagramServiceProvider::class,
 
         /*
          * Package Service Providers...
@@ -225,6 +231,12 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+        'Toastr' => Kamaln7\Toastr\Facades\Toastr::class,
+        'Form'      => Collective\Html\FormFacade::class,
+        'HTML'      => Collective\Html\HtmlFacade::class,
+        'Newsletter'=> Spatie\Newsletter\NewsletterFacade::class,
+        'Parser'    => Nathanmac\Utilities\Parser\Facades\Parser::class,
+        'Instagram' => Vinkla\Instagram\Facades\Instagram::class,
 
     ],
 

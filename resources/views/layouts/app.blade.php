@@ -35,7 +35,8 @@
 
                 <!-- Branding Image -->
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Laravel') }}
+                    Social Gains
+                    {{--{{ config('app.name', 'Social Gains') }}--}}
                 </a>
             </div>
 
@@ -58,6 +59,11 @@
                             </a>
 
                             <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <a href="{{ url('/dashboard') }}">
+                                        Dashboard
+                                    </a>
+                                </li>
                                 <li>
                                     <a href="{{ url('/logout') }}"
                                         onclick="event.preventDefault();
